@@ -1,0 +1,7 @@
+﻿/* Definir una CSS donde establezca que el tipo de letra es Verdana y tamaño 8 en los
+párrafos. Definir dos páginas que utilicen esa hoja de estilo de las cuales una debe redefinir
+el tamaño de letra a 10.*/
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px ;
+}

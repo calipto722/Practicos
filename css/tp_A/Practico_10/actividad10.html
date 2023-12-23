@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .primeraletra{
+            text-align: justify;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 12px;
+        }
+   p#primer::first-letter, p.primeraletra::first-letter {
+        font-weight: bold;
+        color: aqua;
+    }
+    
+    </style>
+</head>
+<!--
+    Realice un estilo que permita cambiar el aspecto de la primera letra de un párrafo.
+Utilice clases para poder separar los párrafos a los que no queremos que se le aplique el
+estilo.
+-->
+
+<body>
+    <h1 class="primeraletra">Titulo</h1>
+    <p class="primeraletra">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente veniam dolorum quia saepe quam ex tempore ea
+        eaque id voluptatum fugit est, cumque facilis repellendus alias delectus, ratione nam iure.
+    </p>
+    <p id="primer">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente veniam dolorum quia saepe quam ex tempore ea
+        eaque id voluptatum fugit est, cumque facilis repellendus alias delectus, ratione nam iure.
+    </p>
+    <p class="primeraletra">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, facilis delectus commodi
+        velit necessitatibus
+        impedit amet eius ullam beatae dolore fugit magnam vitae quo quibusdam explicabo, blanditiis rem, nam earum.</p>
+
+    <p id="segundo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis placeat unde nesciunt, magnam nihil numquam
+        mollitia quasi iusto, fugiat quisquam laborum asperiores, adipisci maxime porro suscipit nostrum esse aliquam
+        nulla.</p>
+</body>
+
+</html>

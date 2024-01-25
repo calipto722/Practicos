@@ -1,0 +1,21 @@
+/*
+a.- Defina un estilo para que todos los enlaces de 
+    uvas blancas sean amarillos y los
+enlaces de uvas tintas sean rojos.
+b.- Defina un estilo para que el enlace del vino 
+    merlot sea verde (no utilice estilo in-line).
+*/
+
+.amarillo li a {
+    color: yellow;
+
+}
+
+.rojo li a {
+    color: red;
+}
+
+.rojo li a[href="me.htm"] {
+
+    color: green;
+}

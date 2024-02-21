@@ -9,4 +9,3 @@ console.log("arreglo " + areglo_cadena)
 console.log('cantidad de palabras en el arreglo : ' + areglo_cadena.length);
 console.log(' primer palabra en el arreglo : ' + areglo_cadena[0]);
 console.log('ultima palabra del arreglo : ' + areglo_cadena[areglo_cadena.length - 1]);
-

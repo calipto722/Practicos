@@ -4,7 +4,7 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min) + min);
 }
-//  alert('bienvenido')
+
 var num = getRandomInt(1, 1000000);
 console.log(num);
 var contador = 0;
